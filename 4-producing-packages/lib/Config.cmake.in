@@ -1,0 +1,10 @@
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/@PROJECT_NAME@Targets.cmake")
+
+# Something like this must be included if the library has transitive dependencies!
+#
+# include(CMakeFindDependencyMacro)
+#
+# find_dependency(Threads REQUIRED)
+# find_dependency(Boost REQUIRED COMPONENTS system)

@@ -1,0 +1,1 @@
+../../src/standalone/main.cpp
