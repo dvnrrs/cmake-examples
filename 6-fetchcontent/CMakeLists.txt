@@ -36,3 +36,5 @@ add_executable(test main.cpp)
 # Sometimes this ACCIDENTALLY works and can lead to nasty issues!
 
 target_link_libraries(test cppwrap)
+
+install(TARGETS test)
