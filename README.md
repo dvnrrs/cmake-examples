@@ -3,7 +3,8 @@
 This repository contains a number of CMake example projects. They are
 intended to illustrate certain CMake features which were presented in
 a live session along with [a PowerPoint presentation](CMake.ppt) and
-to provide a sandbox in which some of the features can be explored.
+to provide a sandbox in which some of the features can be explored. (A
+[PDF version](CMake.pdf) is also available.)
 
 1. `1-basic-project` - A basic CMake project to illustrate the language.
    This example compiles a simple C++ executable with no dependencies.
