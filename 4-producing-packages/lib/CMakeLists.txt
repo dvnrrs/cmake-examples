@@ -57,7 +57,7 @@ write_basic_package_version_file(
 
 # 6. Finally, install the package files generated above
 install(FILES
-    "${CMAKE_CURRENT_BINARY_DIR}/childConfig.cmake"
-    "${CMAKE_CURRENT_BINARY_DIR}/childConfigVersion.cmake"
-    DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/child"
+    "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}Config.cmake"
+    "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}ConfigVersion.cmake"
+    DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME}"
 )
